@@ -16,31 +16,31 @@ class Ui_MainWindow(object):
         MainWindow.setMinimumSize(QtCore.QSize(400, 400))
         MainWindow.setMaximumSize(QtCore.QSize(400, 400))
         MainWindow.setStyleSheet("* {\n"
-"    font-size: 15px;\n"
-"    font-family: Century Gothic, sans-serif;\n"
-"}\n"
-"\n"
-"QFrame {\n"
-"    background-image: url(:/resources/bg.jpg);\n"
-"}\n"
-"\n"
-"QLabel {\n"
-"    font-size: 40px;\n"
-"    font-weight: bold;\n"
-"}\n"
-"\n"
-"QLineEdit {\n"
-"    padding-left: 10px;\n"
-"    color: #405361;\n"
-"    border: 1px solid black;\n"
-"    border-radius: 5px;\n"
-"}\n"
-"\n"
-"QPushButton {\n"
-"    background-color: black;\n"
-"    color: rgb(200, 200, 200);\n"
-"    border-radius: 5px;\n"
-"}")
+                                "    font-size: 15px;\n"
+                                "    font-family: Century Gothic, sans-serif;\n"
+                                "}\n"
+                                "\n"
+                                "QFrame {\n"
+                                "    background-image: url(:/resources/bg.jpg);\n"
+                                "}\n"
+                                "\n"
+                                "QLabel {\n"
+                                "    font-size: 40px;\n"
+                                "    font-weight: bold;\n"
+                                "}\n"
+                                "\n"
+                                "QLineEdit {\n"
+                                "    padding-left: 10px;\n"
+                                "    color: #405361;\n"
+                                "    border: 1px solid black;\n"
+                                "    border-radius: 5px;\n"
+                                "}\n"
+                                "\n"
+                                "QPushButton {\n"
+                                "    background-color: black;\n"
+                                "    color: rgb(200, 200, 200);\n"
+                                "    border-radius: 5px;\n"
+                                "}")
         MainWindow.setToolButtonStyle(QtCore.Qt.ToolButtonIconOnly)
         MainWindow.setTabShape(QtWidgets.QTabWidget.Rounded)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
@@ -74,10 +74,10 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "Login"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "TheQuizzer - Login"))
         self.lineEdit.setPlaceholderText(_translate("MainWindow", "Username"))
         self.lineEdit_2.setPlaceholderText(_translate("MainWindow", "Password"))
         self.pushButton.setText(_translate("MainWindow", "Login"))
         self.label.setText(_translate("MainWindow", "The Quizzer"))
 
-# import bg_rc
+import ui.resources.bg_rc

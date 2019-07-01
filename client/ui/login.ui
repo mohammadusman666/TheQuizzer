@@ -149,7 +149,7 @@ QPushButton {
   </widget>
  </widget>
  <resources>
-  <include location="../resources/bg.qrc"/>
+  <include location="bg.qrc"/>
  </resources>
  <connections/>
 </ui>
