@@ -19,6 +19,9 @@ state = 1  # state of whether the program has ended or not
 
 
 def authenticate(username, password):
+    """
+    this function authenticates a user
+    """
     cursor = conn.execute(
         """SELECT * FROM student WHERE username = (?);""", [username])
     row = cursor.fetchone()
